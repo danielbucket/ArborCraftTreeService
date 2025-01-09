@@ -1,5 +1,5 @@
 import './index.style.css'
-import logo from '../../assets/logos/arborCraft.png'
+import logo from '../../assets/images/arborcraft.png'
 
 export default function Header() {
   return (

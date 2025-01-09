@@ -1,4 +1,4 @@
-import AC_Logo from '../../../assets/logos/arborcraftTree.png';
+import AC_Logo from '../../../assets/images/arborcraftTree.png';
 import './index.style.css';
 
 export default function About() {

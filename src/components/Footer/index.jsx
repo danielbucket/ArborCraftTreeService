@@ -1,9 +1,7 @@
 import './index.style.css'
 import footerLogoData from './footerLogoData'
 
-
 export default function Footer() {
-
   return (
     <>
       <div className='footer-container'>

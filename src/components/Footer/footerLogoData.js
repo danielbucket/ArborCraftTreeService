@@ -1,6 +1,6 @@
 import  GCCLogo from '../../assets/images/goldenCoC_logo.png'
 import ISALogo from '../../assets/images/ISA_members.jpg'
-import GithubLogo from '../../assets/images/github/github-mark.svg'
+import GithubLogo from '../../assets/images/github-mark.svg'
 
 const foooterLogoData = [
 	{
