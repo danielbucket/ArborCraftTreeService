@@ -1,0 +1,58 @@
+@font-face {
+	font-family: Handjet;
+	src: url('./assets/fonts/Handjet/Handjet-VariableFont_ELGR,ELSH,wght.ttf');
+}
+
+@font-face {
+	font-family: RobotoMono;
+	src: url('./assets/fonts/Roboto_Mono/RobotoMono-VariableFont_wght.ttf');
+}
+
+@font-face {
+	font-family: RobotoFlex;
+	src: url(./assets/fonts/Roboto_Flex/RobotoFlex-VariableFont_GRAD,XTRA,YOPQ,YTAS,YTDE,YTFI,YTLC,YTUC,opsz,slnt,wdth,wght.ttf);
+}
+
+@font-face {
+	font-family: IMFell-reg;
+	src: url('./assets/fonts/IM_Fell_Double_Pica/IMFellDoublePica-Regular.ttf');
+}
+
+@font-face {
+	font-family: IMFell-ital;
+	src: url('./assets/fonts/IM_Fell_Double_Pica/IMFellDoublePica-Italic.ttf');
+}
+
+:root {
+	--ac-sand: 					#F7DE8D;
+	--ac-orange:				#FBB040;
+	--ac-green: 				#AAC27E;
+	--ac-green-opaque: 	#AAC27E69;
+	--ac-blue:					#9FCFCA;
+	--ac-brown: 				#594A42;
+
+	--logo-wo-tree:			url('./assets/logos/arborcraft.png');
+}
+
+* {
+	margin: 0;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+html, body {
+	box-sizing: border-box;
+	overflow: auto;
+}
+
+body {
+	background-color: blanchedalmond;
+}

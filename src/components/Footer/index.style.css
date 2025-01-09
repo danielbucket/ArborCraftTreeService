@@ -1,0 +1,18 @@
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  height: 10rem;
+  box-shadow: 0 0 .5rem .25rem var(--ac-brown);
+}
+
+.footer-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-logo img {
+  background-color: transparent;
+  height: 6rem;
+  margin: auto;
+}

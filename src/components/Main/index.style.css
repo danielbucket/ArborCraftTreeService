@@ -1,0 +1,29 @@
+.main-container {
+  flex-grow: 1;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+  font-family: IMFell-reg;
+  color: var(--ac-brown);
+}
+
+.card-body {
+  scroll-snap-align: start;
+	scroll-snap-stop: always;
+}
+
+.component-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 4rem;
+  margin-bottom: 1rem;
+  background-color: var(--ac-brown);
+  width: 100%;
+  font-size: 2.5rem;
+  font-family: IMFell-reg;
+  text-align: center;
+  color: var(--ac-blue);
+  border-top: .15rem solid var(--ac-orange);
+	border-bottom: .15rem solid var(--ac-orange);
+
+}

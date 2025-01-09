@@ -1,0 +1,19 @@
+.portfolio-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.portfolio-photo {
+	height: 30em;
+	border-radius: 1em;
+	margin: 2rem 0;
+}
+
+.portfolio-text {
+  width: 100%;
+  text-align: center;
+  margin: auto;
+	font-size: 2.25rem;
+}
