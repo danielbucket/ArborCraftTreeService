@@ -22,6 +22,7 @@
 }
 
 .contact-content {
+	padding: .1rem 0;
 	width: 45%;
 	margin: auto;
 	box-shadow: 0 0 .5rem .25rem var(--ac-brown);

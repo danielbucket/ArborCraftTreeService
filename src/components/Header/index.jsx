@@ -11,7 +11,7 @@ export default function Header() {
           <img src={logo} alt='ArborCraft logo' />
         </div>
         <div className='contact-container'>
-          <p className='contact-content'>Phone:<span>{phonenumber}</span></p>
+          <p className='contact-content'><span>{phonenumber}</span></p>
           <a className='contact-content phone-number' href={mailto}>Click to Email</a>
         </div>
       </div>
