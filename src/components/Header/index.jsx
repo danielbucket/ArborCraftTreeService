@@ -1,5 +1,7 @@
 import './index.style.css'
 import logo from '../../assets/images/arborcraft.png'
+const mailto = 'mailto:daniel@aborcrafttreeservice.com'
+const phonenumber = '303-847-5786'
 
 export default function Header() {
   return (
@@ -8,11 +10,9 @@ export default function Header() {
         <div className="header-logo-container">
           <img src={logo} alt='ArborCraft logo' />
         </div>
-        <div className="email-container">
-          <a className="email"
-            href="mailto:daniel@arborcrafttreeservice.com">
-              Click Here to Request a Quote!
-          </a>
+        <div className='contact-container'>
+          <p className='contact-content'>Phone:<span>{phonenumber}</span></p>
+          <a className='contact-content phone-number' href={mailto}>Click to Email</a>
         </div>
       </div>
     </>

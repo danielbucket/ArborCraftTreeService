@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
 	justify-content: space-evenly;
-	height: 20rem;
+	height: 22rem;
 }
 
 .header-logo-container {
@@ -16,26 +16,40 @@
 	margin: auto;
 }
 
-.email-container {
-	height: 4rem;
+.contact-container {
 	display: flex;
-	justify-content: center;
-	align-items: center;
+	height: 5rem;
 }
 
-.email {
+.contact-content {
+	width: 45%;
+	margin: auto;
+	box-shadow: 0 0 .5rem .25rem var(--ac-brown);
 	border: .05rem solid var(--ac-brown);
 	border-radius: .25rem;
-	padding: 0 1.75rem;
-	margin: auto;
 	font-family: IMFell-reg;
-	font-size: 2rem;
 	color: var(--ac-brown);
+	font-size: 2rem;
+	text-align: center;
+}
+
+.phone-number {
 	text-decoration: none;
 }
 
-@media (max-width: 650rem) {
+.contact-content span {
+	margin-left: 0.5rem;
+}
+
+@media (min-width: 650rem) {
 	.header-logo-container img {
 		max-width: 60rem;
+	}
+
+	.contact-content {
+		text-align: center;
+		width: 45%;
+		box-shadow: 0 0 .5rem .25rem var(--ac-brown);
+		font-size: 1.75rem;
 	}
 }
