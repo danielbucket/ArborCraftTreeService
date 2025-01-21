@@ -1,10 +1,11 @@
 import { Loader } from '@googlemaps/js-api-loader';
 import icon from '../../../assets/images/tree_logo.png';
 import { mapCenter, goldenCoordinates, mapAreaCoordinates } from './mapData';
+const key = import.meta.env.VITE_GMAPS_KEY;
 
 export default function ServiceAreaMap() {
   const loader = new Loader({
-    apiKey: import.meta.env.VITE_GMAPS_API,
+    apiKey: key,
     version: 'weekly',
   })
 
