@@ -1,0 +1,28 @@
+.service-area-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.map-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  height: 100%;
+  width: 100%;
+}
+
+.map-container p {
+  font-size: 2.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.google-map {
+  flex-grow: 1;
+  height: 20rem;
+  width: 100%;
+  position: relative;
+  border: .1rem solid var(--ac-orange);
+}
