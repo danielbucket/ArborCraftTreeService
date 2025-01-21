@@ -19,10 +19,9 @@
   margin-bottom: 0.5rem;
 }
 
-.google-map {
+.map-wrapper{
   flex-grow: 1;
-  height: 20rem;
-  width: 100%;
+  width: clamp(20rem, 100%, 40rem);
   position: relative;
   border: .2rem solid var(--ac-green);
 }

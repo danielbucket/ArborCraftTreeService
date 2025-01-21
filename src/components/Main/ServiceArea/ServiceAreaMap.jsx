@@ -27,11 +27,9 @@ export default function ServiceAreaMap() {
 
     const serviceArea = new google.maps.Polygon({
       path: mapAreaCoordinates,
-      strokeColor: "#FF0000",
+      strokeColor: "#9FCFCA",
       strokeOpacity: 0.8,
-      strokeWeight: 2,
-      fillColor: "#FF0000",
-      fillOpacity: 0.35,
+      strokeWeight: 2.5
     });
 
     const marker = new AdvancedMarkerElement({
@@ -45,6 +43,6 @@ export default function ServiceAreaMap() {
   });
 
   return (
-    <div id="map" className="map-container"></div>
+    <div id="map" className="map-wrapper"></div>
   );
 };
