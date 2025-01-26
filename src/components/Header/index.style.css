@@ -2,16 +2,16 @@
   display: flex;
   flex-direction: column;
 	justify-content: space-evenly;
-	height: 22rem;
+	height: 24rem;
 }
 
-.header-logo-container {
+.header-logo-wrapper {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
 
-.header-logo-container img {
+.header-logo-wrapper img {
 	width: 95%;
 	max-width: 80rem;
 	margin: auto;
@@ -19,12 +19,14 @@
 
 .contact-container {
 	display: flex;
-	height: 5rem;
+	flex-direction: column;
+	height: 8rem;
 }
 
 .contact-content {
+	display: flex;
 	padding: .1rem 0;
-	width: 45%;
+	width: 98%;
 	margin: auto;
 	box-shadow: 0 0 .5rem .25rem var(--ac-brown);
 	border: .05rem solid var(--ac-brown);
@@ -32,26 +34,68 @@
 	font-family: IMFell-reg;
 	color: var(--ac-brown);
 	font-size: 2rem;
+}
+
+.contact-content p {
+	flex-grow: 1;
+	width: 100%;
+	margin: auto;
 	text-align: center;
+	justify-items: center;
 }
 
-.phone-number {
-	text-decoration: none;
+.contact-content img {
+	flex-grow: 0;
+	width: 2rem;
+	margin: auto 0.25rem;
 }
 
-.contact-content span {
-	margin-left: 0.5rem;
+.copy-icon:hover {
+	cursor: pointer;
 }
 
-@media (min-width: 650rem) {
-	.header-logo-container img {
-		max-width: 60rem;
+
+/*--> Media Queries <--*/
+
+@media (min-width: 460px) {
+	.contact-container {
+		flex-direction: row;
+		gap: 0.5rem;
+		margin: auto;
+		padding: 0.25rem;
+		width: 98%;
+		height: 5rem;
 	}
 
 	.contact-content {
-		text-align: center;
+		height: 3rem;
+		font-size: 1.5rem;
+	}
+	.contact-content img {
+		height: 1.5rem;
+	}
+}
+
+@media (min-width: 550px) {
+	.contact-content {
+		/* font-size: 1.65rem; */
 		width: 45%;
-		box-shadow: 0 0 .5rem .25rem var(--ac-brown);
+	}
+
+	.contact-content img {
+		width: 2rem;
+		height: 2rem;
+	}
+}
+
+@media (min-width: 600px) {
+	.contact-content {
 		font-size: 1.75rem;
+	}
+}
+
+@media (min-width: 675px) {
+	.contact-content {
+		font-size: 2rem;
 	}
 }

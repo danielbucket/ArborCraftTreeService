@@ -1,7 +1,7 @@
 import { Loader } from '@googlemaps/js-api-loader';
 import icon from '../../../assets/images/tree_logo.png';
 import { mapCenter, goldenCoordinates, mapAreaCoordinates } from './mapData';
-const key = process.env.GMAPS_KEY || import.meta.env.VITE_GMAPS_KEY;
+const key = process.env.VITE_GMAPS_KEY || import.meta.env.VITE_GMAPS_KEY;
 
 export default function ServiceAreaMap() {
   const loader = new Loader({
