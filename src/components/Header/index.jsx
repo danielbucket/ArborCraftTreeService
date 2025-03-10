@@ -3,7 +3,7 @@ import logo from '../../assets/images/arborcraft.png';
 import phoneIcon from '../../assets/images/phone.png';
 import copyIcon from '../../assets/images/clipboards.png';
 
-const email = 'daniel@arborcrafttreeservice.com'
+const email = 'daniel@arborcraftservices.com'
 const phonenumber = '303-847-5786'
 
 export default function Header() {
