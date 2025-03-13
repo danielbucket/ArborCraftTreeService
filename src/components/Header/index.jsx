@@ -4,7 +4,7 @@ import phoneIcon from '../../assets/images/phone.png';
 import copyIcon from '../../assets/images/clipboards.png';
 
 const email = 'daniel@arborcraftservices.com'
-const phonenumber = '303-847-5786'
+const phonenumber = '720-954-4005'
 
 export default function Header() {
   const handleClick = (e) => {
