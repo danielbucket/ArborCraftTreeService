@@ -23,6 +23,6 @@
   font-family: IMFell-reg;
   text-align: center;
   color: var(--ac-blue);
-  border-top: .15rem solid var(--ac-orange);	border-bottom: .15rem solid var(--ac-orange);
-
+  border-top: .15rem solid var(--ac-orange);
+  border-bottom: .15rem solid var(--ac-orange);
 }

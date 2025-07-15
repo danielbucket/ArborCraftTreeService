@@ -1,14 +1,14 @@
-import  GCCLogo from '../../assets/images/goldenCoC_logo.png'
+// import  GCCLogo from '../../assets/images/goldenCoC_logo.png'
 import ISALogo from '../../assets/images/ISA_members.jpg'
 import GithubLogo from '../../assets/images/github-mark.svg'
 
 const foooterLogoData = [
-	{
-		name: "Golden Chamber of Commerce",
-		src: GCCLogo,
-		alt: "Golden chamber of commerce logo",
-		href: "https://goldenchamber.org/"
-	},
+	// {
+	// 	name: "Golden Chamber of Commerce",
+	// 	src: GCCLogo,
+	// 	alt: "Golden chamber of commerce logo",
+	// 	href: "https://goldenchamber.org/"
+	// },
 	{
 		name: "International Society of Aboriculture",
 		src: ISALogo,
